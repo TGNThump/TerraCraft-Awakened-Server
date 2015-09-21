@@ -1,0 +1,161 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "tcawakened:gui/logo.png",
+            "posX" : -100,
+            "posY" : 100,
+            "width" : 200,
+            "height" : 55,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "multiplayer":
+        {
+            "text" : "Connect To TerraCraft",
+            "posX" : -100,
+            "posY" : -60,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : {
+                "type" : "connectToServer",
+                "ip" : "mc.terragaming.co.uk"
+            }
+        },
+        
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -35,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -100,
+            "posY" : -10,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "modList":
+        {
+            "text" : "Mod List",
+            "posX" : -100,
+            "posY" : 15,
+            "width" : 200,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://www.terragaming.co.uk/servers/terraCraftAwakened"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "Quit Game",
+            "posX" : -100,
+            "posY" : 40,
+            "width" : 175,
+            "height" : 20,
+            "alignment" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+            "alignment": "center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -202,
+            "posY" : -15,
+            "color" : 16711421,
+            "alignment" : "bottom_right"
+        },
+        
+        "mcVersion":
+        {
+            "text" : "Minecraft 1.7.10",
+            "posX" : 5,
+            "posY" : -15,
+            "color" : 16711421,
+            "alignment" : "bottom_left"
+        },
+
+        "tcVersion":
+        {
+            "text" : "TerraCraft Awakened V2.0",
+            "posX" : -136,
+            "posY" : 10,
+            "color" : 16776960,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://www.terragaming.co.uk/servers/terraCraftAwakened"
+            }
+            
+        },
+
+        "tcWeb":
+        {
+            "text" : "www.Terra-Craft.net",
+            "posX" : -105,
+            "posY" : 20,
+            "color" : 16711421,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "tcawakened:gui/background.png",
+            "mode" : "fill"
+        }
+    }
+}

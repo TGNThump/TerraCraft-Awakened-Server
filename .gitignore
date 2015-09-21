@@ -1,0 +1,15 @@
+world/
+usercache.json
+whitelist.json
+ops.json
+server.properties
+eula.txt
+banned-players.json
+banned-ips.json
+config/YAMPST.nbt
+config/buildcraft/blueprints/
+crash-reports/
+logs/
+TI_Transformer.log
+minetweaker.log
+mods/VoxelMods/voxelMap/cache/
