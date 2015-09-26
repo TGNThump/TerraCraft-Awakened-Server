@@ -18,6 +18,8 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<eplus:tile.advancedEnchantmentTable>, [[<ore:ingotGold>, <minecraft:writable_book>, <ore:ingotGold>], [<ore:obsidian>, <minecraft:enchanting_table>, <ore:obsidian>], [<ore:ingotGold>, <ore:enderEye>, <ore:ingotGold>]]);
+recipes.removeShaped(<recallstones:recallStoneBlank>, [[<ore:stone>, <ore:gemEnderPearl>, <ore:stone>], [<ore:gemEnderPearl>, <ore:gemDiamond>, <ore:gemEnderPearl>], [<ore:stone>, <ore:gemEnderPearl>, <ore:stone>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -27,3 +29,6 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<eplus:tile.advancedEnchantmentTable>, [[<ore:ingotGold>, <minecraft:writable_book>, <ore:ingotGold>], [<ExtraUtilities:unstableingot>, <minecraft:enchanting_table>, <ExtraUtilities:unstableingot>], [<ore:ingotGold>, <ore:enderEye>, <ore:ingotGold>]]);
+recipes.addShaped(<recallstones:recallStoneBlank>, [[<ore:stone>, <ore:gemEnderPearl>, <ore:stone>], [<ore:gemEnderPearl>, <ExtraUtilities:unstableingot>, <ore:gemEnderPearl>], [<ore:stone>, <ore:gemEnderPearl>, <ore:stone>]]);
+
