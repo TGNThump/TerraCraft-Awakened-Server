@@ -15,6 +15,8 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
+recipes.removeShapeless(<ProjRed|Core:projectred.core.part:16>, [<Eln:Eln.sharedItem:513>, <ProjRed|Core:projectred.core.drawplate:*>]);
+recipes.removeShapeless(<ProjRed|Core:projectred.core.part:16>, [<Eln:Eln.sharedItem:513>, <ProjRed|Core:projectred.core.drawplate:7>]);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
@@ -26,9 +28,13 @@ recipes.removeShaped(<recallstones:recallStoneBlank>, [[<ore:stone>, <ore:gemEnd
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<TConstruct:binding:9>, [<minecraft:paper>, <TConstruct:woodPattern:9>.giveBack(<TConstruct:woodPattern:9>)]);
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:16>, [<Eln:Eln.sharedItem:513>, <ProjRed|Core:projectred.core.drawplate:*>]);
+recipes.addShapeless(<ProjRed|Core:projectred.core.part:16>, [<ore:ingotCopper>, <ProjRed|Core:projectred.core.drawplate>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:unstableingot>, [[<ore:ingotIron>], [<ExtraUtilities:divisionSigil>], [<ore:gemDiamond>]]);
 recipes.addShaped(<eplus:tile.advancedEnchantmentTable>, [[<ore:ingotGold>, <minecraft:writable_book>, <ore:ingotGold>], [<ExtraUtilities:unstableingot>, <minecraft:enchanting_table>, <ExtraUtilities:unstableingot>], [<ore:ingotGold>, <ore:enderEye>, <ore:ingotGold>]]);
 recipes.addShaped(<recallstones:recallStoneBlank>, [[<ore:stone>, <ore:gemEnderPearl>, <ore:stone>], [<ore:gemEnderPearl>, <ExtraUtilities:unstableingot>, <ore:gemEnderPearl>], [<ore:stone>, <ore:gemEnderPearl>, <ore:stone>]]);
 
